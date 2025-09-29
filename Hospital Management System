@@ -1,0 +1,28 @@
+
+
+Requirements:
+Abstract Class : Person
+-fields; name, age id.
+-Abstract method: displayInfo()
+	
+Inheritance 7 Polymorphism
+-subclasses ofperson; Docto and Patient
+-Doctor has specialization:
+---Surgeon(extra field; surgery type)
+---general physician
+		
+Interface: payable
+-method: generatebill(double amount)
+-only patients iplemnents this.
+
+Composition: department
+-A department has a list of doctors
+-can assign doctors to patients
+	
+Main Application
+-create atleast 1 department with doctors
+-create patients and assign them to doctors
+-Demonstrate:
+---displayInfo() plymorphism
+---scheduling for both doctors and patients
+---bill generation for patients.
